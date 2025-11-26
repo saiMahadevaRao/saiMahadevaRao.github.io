@@ -96,10 +96,10 @@ const ChatWidget = () => {
                     >
                         <div className="relative">
                             <p className="text-sm font-medium">
-                                Ask about Sai / Get to know Sai
+                                Curious about Sai? Ask my AI clone! 🤖
                             </p>
                             <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-1">
-                                Powered by AI ✨
+                                I know (almost) everything...
                             </p>
                             {/* Arrow */}
                             <div className="absolute -bottom-[18px] right-4 w-4 h-4 bg-white dark:bg-zinc-800 border-b border-r border-neutral-200 dark:border-neutral-700 transform rotate-45"></div>
