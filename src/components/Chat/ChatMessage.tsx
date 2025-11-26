@@ -35,7 +35,7 @@ const ChatMessage = ({ role, content }: ChatMessageProps) => {
 
                 <div
                     className={cn(
-                        "p-3 rounded-2xl text-sm prose prose-invert prose-sm max-w-none break-words",
+                        "p-3 rounded-2xl text-sm prose prose-invert prose-sm max-w-none break-words break-all overflow-hidden",
                         isUser
                             ? "bg-purple-500 text-white rounded-tr-none"
                             : "bg-neutral-800 text-neutral-200 rounded-tl-none border border-neutral-700"

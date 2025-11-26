@@ -84,6 +84,30 @@ const ChatWidget = () => {
                 )}
             </AnimatePresence>
 
+            {/* Hint Bubble */}
+            <AnimatePresence>
+                {!isOpen && (
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.8, x: 20 }}
+                        animate={{ opacity: 1, scale: 1, x: 0 }}
+                        exit={{ opacity: 0, scale: 0.8, x: 20 }}
+                        transition={{ delay: 1, duration: 0.3 }}
+                        className="fixed bottom-20 right-4 md:right-8 bg-white dark:bg-zinc-800 text-black dark:text-white px-4 py-2 rounded-lg shadow-xl border border-neutral-200 dark:border-neutral-700 z-[59] max-w-[200px]"
+                    >
+                        <div className="relative">
+                            <p className="text-sm font-medium">
+                                Ask about Sai / Get to know Sai
+                            </p>
+                            <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-1">
+                                Powered by AI ✨
+                            </p>
+                            {/* Arrow */}
+                            <div className="absolute -bottom-[18px] right-4 w-4 h-4 bg-white dark:bg-zinc-800 border-b border-r border-neutral-200 dark:border-neutral-700 transform rotate-45"></div>
+                        </div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
+
             {/* Toggle Button */}
             <button
                 onClick={toggleChat}
