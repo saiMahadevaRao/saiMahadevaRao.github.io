@@ -1,6 +1,5 @@
-import React from "react";
 import { FaPython, FaJava, FaJs, FaReact, FaNodeJs, FaAws, FaDocker, FaGitAlt, FaDatabase } from "react-icons/fa";
-import { SiCplusplus, SiMysql, SiMongodb, SiFastapi, SiPytorch, SiTensorflow, SiPostgresql, SiTypescript } from "react-icons/si";
+import { SiCplusplus, SiMongodb, SiFastapi, SiPytorch, SiTensorflow, SiPostgresql, SiTypescript } from "react-icons/si";
 
 const Skills = () => {
     const skillCategories = [

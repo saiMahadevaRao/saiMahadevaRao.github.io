@@ -1,7 +1,6 @@
-import React from "react";
 import { projects } from "../../data/projects";
 import { FaGithub, FaExternalLinkAlt, FaPython, FaBrain, FaRobot, FaDatabase, FaCode } from "react-icons/fa";
-import { SiPytorch, SiLangchain, SiHuggingface, SiOpencv, SiOpencv as SiComputerVision, SiTensorflow, SiScikitlearn } from "react-icons/si";
+import { SiPytorch, SiLangchain, SiHuggingface, SiOpencv } from "react-icons/si";
 import { BiNetworkChart } from "react-icons/bi";
 import { TbBrain } from "react-icons/tb";
 

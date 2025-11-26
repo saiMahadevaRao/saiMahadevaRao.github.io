@@ -1,6 +1,5 @@
-import React from "react";
 import { TypewriterLoop } from "../ui/TypewriterLoop";
-import { FaGithub, FaLinkedin, FaEnvelope, FaFileAlt, FaDownload, FaChevronDown } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaDownload, FaChevronDown } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const Hero = () => {
