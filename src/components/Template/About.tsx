@@ -14,7 +14,7 @@ const About = () => {
                         <div className="relative w-64 h-64 mx-auto md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-purple-500/50 shadow-2xl shadow-purple-500/20">
                             {/* Replace with actual image path if available, using placeholder for now or migrated asset */}
                             <img
-                                src="/assets/images/MyPhoto.jpg"
+                                src="/assets/images/MyPhoto_v2.jpg"
                                 alt="Sai Nithish"
                                 className="w-full h-full object-cover"
                                 onError={(e) => {
