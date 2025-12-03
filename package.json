@@ -2,7 +2,7 @@
   "name": "sai-portfolio-frontend",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://saimahadevarao.github.io/sai-portfolio-frontend/",
+  "homepage": "https://saimahadevarao.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
